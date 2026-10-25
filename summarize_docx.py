@@ -68,6 +68,7 @@ def install_daily_schedule(script_path: Path) -> None:
         print(result.stdout.strip())
 
 
+
 def iter_document_text(document: object) -> list[str]:
     """Return non-empty body paragraph and table-cell text in document order."""
     text_blocks: list[str] = []
